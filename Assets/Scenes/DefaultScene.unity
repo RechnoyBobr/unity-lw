@@ -891,7 +891,6 @@ GameObject:
   - component: {fileID: 744452277}
   - component: {fileID: 744452276}
   - component: {fileID: 744452278}
-  - component: {fileID: 744452279}
   m_Layer: 0
   m_Name: GameField
   m_TagString: Untagged
@@ -1019,21 +1018,6 @@ MonoBehaviour:
   currentScoreField: {fileID: 1304862265}
   highScoreField: {fileID: 1062119830}
   _gameOverScreenPrefab: {fileID: 8327828894389467324, guid: 7416fced2b8f1a165b0cc6f35c71f1f1, type: 3}
---- !u!114 &744452279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744452275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82298ad3a5634ec78efd8fa2c2d740d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _swipeAction: {fileID: -8182059705545813353, guid: a02f3aebb2c6f88409417cd0b45673bf, type: 3}
-  _startPos: {x: 0, y: 0}
-  _isSwiping: 0
 --- !u!1 &781567514
 GameObject:
   m_ObjectHideFlags: 0
